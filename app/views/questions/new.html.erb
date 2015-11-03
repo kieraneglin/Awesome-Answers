@@ -1,0 +1,7 @@
+<h1>Create New Question</h1>
+
+<%#= render("/questions/form") %>
+<%# this will look for a partial named "_form.html.erb" within the same
+    folder as the file we're in (new.html.erb) and render it in here.
+    Partials can access instance variables but not local variables. %>
+<%= render "form" %>
